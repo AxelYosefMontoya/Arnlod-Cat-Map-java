@@ -1,4 +1,8 @@
-package arnoldcattransform;
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package arnoldcatmap;
 
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -6,8 +10,12 @@ import javax.imageio.ImageIO;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 
-public class ArnoldCatTransform {
-    
+/**
+ *
+ * @author NIGGAMAN
+ */
+public class ArnoldCatMap {
+
     public static void main(String[] args) {
         try {
             // 1. Seleccionar imagen interactivamente
@@ -71,4 +79,5 @@ public class ArnoldCatTransform {
         
         return newImg;
     }
+    
 }
